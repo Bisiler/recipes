@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(94, 91, 91, 0.212)),
+     url('../img/pic.jpg');
+     background-size: cover;
+     background-position: center;
+     opacity: 0;
+    animation-name: bg;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    transition-duration: 1s;
+    animation-fill-mode: forwards;
+    color: black;
+}
+}
+.btn {
+    color:black;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    transition-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes btn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+    @keyframes bg{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        }
